@@ -1,0 +1,30 @@
+{
+  "name": "aceTheACT",
+  "version": "1.0.0",
+  "description": "ACT Tutoring WebApp",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "passport-jwt": "*",
+    "passport": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freedles/aceTheACT.git"
+  },
+  "author": "Kurgan Freedle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freedles/aceTheACT/issues"
+  },
+  "homepage": "https://github.com/Freedles/aceTheACT#readme"
+}
