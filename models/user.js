@@ -5,7 +5,28 @@ const config = require('../config/database');
 //Buyer Schema
 const UserSchema = mongoose.Schema({
     mastery: {
-      math: Number,
+      math: {
+        number_properties: Number,
+        divisibility: Number,
+        fractions_and_decimals: Number,
+        percents: Number,
+        ratios_proportions_rates: Number,
+        averages: Number,
+        probability: Number,
+        power_and_roots: Number,
+        algebraic_expressions: Number,
+        factoring: Number,
+        solving_equations: Number,
+        intermediate_algebra: Number,
+        coordinate_geometry: Number,
+        lines_and_angles: Number,
+        triangles: Number,
+        right_triangles: Number,
+        other_polygons: Number,
+        circles: Number,
+        solids: Number,
+        trigonometry: Number
+      },
       reading: Number,
       science: Number,
       english: Number,
